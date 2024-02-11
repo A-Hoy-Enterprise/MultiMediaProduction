@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <div class="banner">
+      <h1>{{ site.title }}</h1>
+    </div>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -14,11 +17,9 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <!-- SIDE BAR-->
     <div class="wrapper">
       <header>
-        <div class="banner">
-          <h1>{{ site.title }}</h1>
-        </div>
         <h1 class="header">{{ site.title }}</h1>
         <p class="header">{{ site.description }}</p>
 
