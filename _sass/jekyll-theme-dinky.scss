@@ -38,6 +38,16 @@ body {
 
 }
 
+.banner {
+  width: 100%; /* Span the length of the page */
+  height: 100px; /* Set the height as desired */
+  background-color: #333; /* Background color of the banner */
+  color: #fff; /* Text color */
+  text-align: center; /* Center align the text */
+  line-height: 100px; /* Vertically center the text */
+  font-size: 24px; /* Font size of the text */
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#232323;
   margin:36px 0 10px;
